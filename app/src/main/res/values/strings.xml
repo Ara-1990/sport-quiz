@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Sport Quiz</string>
+
+    <string name="quastionfootball1"> Which one  is Messi </string>
+    <string name="quastionfootball2"> Which one  is Ronaldo </string>
+    <string name="quastionfootball3"> Which one  is Serena Williams </string>
+    <string name="quastionfootball4"> Which one  is Roger Federer </string>
+    <string name="quastionfootball5"> Which one  is logo of Real Madrid</string>
+    <string name="quastionfootball6"> Which one  is cup of FIFA world cup </string>
+    <string name="quastionfootball7"> Which one is Rafael Nadal </string>
+    <string name="quastionfootball8"> Which one is Pele </string>
+    <string name="quastionfootball9"> Which one is Andre Agassi </string>
+    <string name="quastionfootball10"> Which one is logo of fc Milan </string>
+    <string name="quastionfootball11"> Which one is Ayrton Senna </string>
+    <string name="quastionfootball12"> Which one is Roberto Carlos </string>
+    <string name="quastionfootball13"> Which one is Samuel Eto </string>
+    <string name="quastionfootball14"> Which one is Karim Benzema </string>
+    <string name="quastionfootball15"> Which one is Erling Haaland </string>
+    <string name="quastionfootball16"> Which one is Mohamed Salah </string>
+    <string name="quastionfootball17"> Which one is Lewis Hamilton </string>
+    <string name="quastionfootball18"> Which one is Usain Bolt </string>
+    <string name="quastionfootball19"> Which one is Johan Cruyff </string>
+    <string name="quastionfootball20"> Which one  is Michael Jordan </string>
+
+
+
+</resources>

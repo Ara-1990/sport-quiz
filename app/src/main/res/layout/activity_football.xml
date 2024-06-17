@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/const_id"
+    android:orientation="vertical"
+    tools:context=".Football_Activity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/win"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:lottie_fileName="win.json"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/questionLabel"
+        tools:ignore="MissingConstraints">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/medal"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:lottie_fileName="silvermedal.json"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/questionLabel"
+        tools:ignore="MissingConstraints">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="Hello World!"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        app:riv_oval="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionLabel" />
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:riv_oval="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp" />
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:riv_oval="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp" />
+
+
+
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_next"
+        android:gravity="center"
+        android:text="Next quastion"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:visibility="visible"
+        android:layout_marginTop="40dp"
+        android:enabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/buttonResult"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_next"
+        android:gravity="center"
+        android:text="Get Result"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:layout_marginTop="40dp"
+        android:enabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
